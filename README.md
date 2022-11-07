@@ -123,7 +123,7 @@ To train the agent, activate the Anaconda environment and run the command `pytho
 <br>
 <figure>
   <p align="center">
-  <img src = "images/training_time.png" width = 90% style = "border: thin silver solid; padding: 0px">
+  <img src = "images/training_time.png" width = 100% style = "border: thin silver solid; padding: 0px">
       <figcaption style = "text-align: center; font-style: italic">Total Training Time.</figcaption>
   </p>
 </figure>
