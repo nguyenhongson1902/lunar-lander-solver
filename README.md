@@ -49,10 +49,8 @@ Gym implements the classic "agent-environment loop”. An agent interacts with t
 <br>
 <br>
 <figure>
-  <p align="center">
   <img src = "images/AE_loop.png" width = 40%>
       <figcaption style = "text-align: center; font-style: italic">Agent-Environment Loop Formalism.</figcaption>
-  </p>
 </figure>
 
 ## Deep Q-Learning
