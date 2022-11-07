@@ -5,14 +5,8 @@ Task: Training an agent to land a lunar lander safely on a landing pad on the su
 Lunar Lander is one of the environments in [Open AI's Gym library](https://www.gymlibrary.dev/). Simply put, an environment represents a problem or task to be solved. In this case, we will try to solve the environment using Deep Q-Learning Algorithm with Experience Replay.
 
 The landing pad is designated by two flag poles and it is always at coordinates $(0,0)$ but the lander is also allowed to land outside of the landing pad. The lander starts at the top center of the environment with a random initial force applied to its center of mass and has infinite fuel. The environment is considered <b>solved</b> if you get at least $200$ points.
-<br>
-<br>
-<figure>
-  <p align="center">
-  <img src = "images/lunar_lander.gif" width = 40%>
-      <figcaption style = "text-align: center; font-style: italic">Lunar Lander Environment.</figcaption>
-  </p>
-</figure>
+
+![Lunar Lander Environment.](images/lunar_lander.gif)
 
 ### Action Space
 The agent has four discrete actions:
