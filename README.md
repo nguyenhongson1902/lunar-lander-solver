@@ -95,15 +95,8 @@ The experience tuples $(S_t, A_t, R_t, S_{t+1})$ will be added to the memory buf
 
 ## Deep Q-Learning Algorithm with Experience Replay
 
-<br>
-<br>
-<figure>
-  <p align="center">
-  <img src = "images/deep_q_algorithm.png" width = 90% style = "border: thin silver solid; padding: 0px">
-      <figcaption style = "text-align: center; font-style: italic">Deep Q-Learning with Experience Replay.</figcaption>
-  </p>
-</figure>
-
+<img src = "images/deep_q_algorithm.png" width = 90% style = "border: thin silver solid; padding: 0px">
+<p align="center"><i>Deep Q-Learning with Experience Replay.</i></p>
 
 ## Installation
 Run the command `conda create --name <your_env> --file requirements.txt`
