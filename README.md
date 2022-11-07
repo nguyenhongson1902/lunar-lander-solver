@@ -42,7 +42,9 @@ An episode ends (i.e. the environment is in a terminal state) if:
 - The absolute value of the lander's $x$-coordinate is greater than $1$ (i.e. it goes beyond the left or right border)
 
 ## Interacting with the Gym Environment
-Gym implements the classic "agent-environment loop”. An agent interacts with the environment in discrete time steps $t = 0,1,2,...$. At each time step $t$, the agent uses a policy $\pi$ to select an action $A_t$ based on its observation of the environment's state $S_t$. The agent receives a numerical reward $R_t$ and on the next time step, moves to a new state $S_{t+1}$.
+Gym implements the classic "agent-environment loop”. An agent interacts with the environment in discrete time steps $t = 0,1,2,...$. 
+
+At each time step $t$, the agent uses a policy $\pi$ to select an action $A_t$ based on its observation of the environment's state $S_t$. The agent receives a numerical reward $R_t$ and on the next time step, moves to a new state $S_{t+1}$.
 
 <p align="center"><img src = "images/AE_loop.png" width = 40%></p>
 <p align="center"><i>Agent-Environment Loop Formalism.</i></p>
