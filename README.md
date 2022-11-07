@@ -44,14 +44,8 @@ An episode ends (i.e. the environment is in a terminal state) if:
 ## Interacting with the Gym Environment
 Gym implements the classic "agent-environment loop”. An agent interacts with the environment in discrete time steps $t = 0,1,2,...$. At each time step $t$, the agent uses a policy $\pi$ to select an action $A_t$ based on its observation of the environment's state $S_t$. The agent receives a numerical reward $R_t$ and on the next time step, moves to a new state $S_{t+1}$.
 
-<br>
-<br>
-<figure>
-  <p align="center">
-  <img src = "images/AE_loop.png" width = 40%>
-      <figcaption style = "text-align: center; font-style: italic">Agent-Environment Loop Formalism.</figcaption>
-  </p>
-</figure>
+<img src = "images/AE_loop.png" width = 40%>
+<p align="center"><i>Agent-Environment Loop Formalism.</i></p>
 
 ## Deep Q-Learning
 We denote that $Q^*(s,a)$ is the optimal action-value function of $Q(s,a)$. In this case, the state space is continuous so it is practically
