@@ -6,7 +6,10 @@ Lunar Lander is one of the environments in [Open AI's Gym library](https://www.g
 
 The landing pad is designated by two flag poles and it is always at coordinates $(0,0)$ but the lander is also allowed to land outside of the landing pad. The lander starts at the top center of the environment with a random initial force applied to its center of mass and has infinite fuel. The environment is considered <b>solved</b> if you get at least $200$ points.
 
-![Lunar Lander Environment.](images/lunar_lander.gif)
+<figure>
+  <img src="images/lunar_lander.gif">
+  <figcaption>Lunar Lander Environment.</figcaption>
+</figure>
 
 ### Action Space
 The agent has four discrete actions:
