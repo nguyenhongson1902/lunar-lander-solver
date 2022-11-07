@@ -58,7 +58,7 @@ There's a couple of techniques that can be employed to avoid instabilities when 
 
 ### Q-Network Architecture
 
-<p align="center"><img src = "images/q_network.png" width = 90% style = "border: thin silver solid; padding: 0px"></p>
+<p align="center"><img src = "images/q_network.png" width = 60% style = "border: thin silver solid; padding: 0px"></p>
 <p align="center"><i>The Q-Network Architecture.</i></p>
 
 ### Target Network
