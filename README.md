@@ -11,10 +11,7 @@ The landing pad is designated by two flag poles and it is always at coordinates 
         <img src="images/lunar_lander.gif" width=40%>
     </p>
 </figure>
-<p style="text-align:center">
-Lunar Lander Environment.
-</p>
-
+<center>Lunar Lander Environment.</center>
 
 ### Action Space
 The agent has four discrete actions:
