@@ -56,6 +56,11 @@ In the Deep $Q$-Learning, we solve this problem by using a neural network to est
 $$Q(s, a) = R(s) + \gamma \max_{a'} Q(s', a')$$
 There's a couple of techniques that can be employed to avoid instabilities when using neural networks in reinforcement learning to estimate action-value functions. These techniques consist of using a ***Target Network*** and ***Experience Replay***. We will explore these two techniques in the following sections.
 
+### Q-Network Architecture
+
+<p align="center"><img src = "images/q_network.png" width = 90% style = "border: thin silver solid; padding: 0px"></p>
+<p align="center"><i>The Q-Network Architecture.</i></p>
+
 ### Target Network
 We can train the $Q$-Network by adjusting its weights at each iteration to minimize the mean-squared error in the Bellman equation, where the target values are given by:
 
