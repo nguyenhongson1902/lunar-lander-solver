@@ -11,6 +11,7 @@ The landing pad is designated by two flag poles and it is always at coordinates 
         <img src="images/lunar_lander.gif" width=40%>
     </p>
 </figure>
+
 <center>Lunar Lander Environment.</center>
 
 ### Action Space
