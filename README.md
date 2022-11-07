@@ -51,7 +51,7 @@ Gym implements the classic "agent-environment loop”. An agent interacts with t
 We denote that Q^*(s,a) is the optimal action-value function of Q(s,a). In this case, the state space is continuous so it is practically
 impossible to explore the entire state-action space. Consequently, this also makes it practically impossible to gradually estimate Q(s,a) until it converges to Q^*(s,a).
 
-We denote that $Q(s,a)$
+We denote that $Q^*(s,a)$
 
 In the Deep $Q$-Learning, we solve this problem by using a neural network to estimate the action-value function $Q(s,a)\approx Q^*(s,a)$. We call this neural network a $Q$-Network and it can be trained by adjusting its weights at each iteration to minimize the mean-squared error in the Bellman equation. Here is the Bellman equation:
 $$Q(s, a) = R(s) + \gamma \max_{a'} Q(s', a')$$
