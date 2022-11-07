@@ -112,15 +112,17 @@ You should ignore the warnings in the image above and focus on the main informat
 After the training is finished, the model will be saved in `./models/` so we can see the results in `./videos/lunar_lander.mp4` and the moving average of total points through episodes in `./images/moving_average.png`
 
 ## Results
-
+- The moving average plot
 <p align="center"><img src = "images/moving_average.png" width = 60% style = "border: thin silver solid; padding: 0px"></p>
 <p align="center"><i>The Moving Average of Total Points through Episodes.</i></p>
 
 
 - An example of failing to land on the surface of the Moon.
+
 https://user-images.githubusercontent.com/53143545/200273404-8717d2b5-3bda-4f7b-a7c1-30cf6936a1e6.mp4
 
 - An example of successfully landing on the surface of the Moon.
+
 https://user-images.githubusercontent.com/53143545/200273261-cf42491e-15f1-4c72-8615-dc6e0bd2e1a5.mp4
 
 
