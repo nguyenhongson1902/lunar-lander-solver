@@ -48,12 +48,12 @@ Gym implements the classic "agent-environment loop”. An agent interacts with t
 
 <br>
 <br>
-<p align="center">
 <figure>
+  <p align="center">
   <img src = "images/AE_loop.png" width = 40%>
       <figcaption style = "text-align: center; font-style: italic">Agent-Environment Loop Formalism.</figcaption>
+  </p>
 </figure>
-</p>
 
 ## Deep Q-Learning
 We denote that $Q^*(s,a)$ is the optimal action-value function of $Q(s,a)$. In this case, the state space is continuous so it is practically
