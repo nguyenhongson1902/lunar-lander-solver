@@ -44,7 +44,7 @@ An episode ends (i.e. the environment is in a terminal state) if:
 - The absolute value of the lander's $x$-coordinate is greater than $1$ (i.e. it goes beyond the left or right border)
 
 ## Interacting with the Gym Environment
-Gym implements the classic "agent-environment loop”. An agent interacts with the environment in discrete time steps $t=0,1,2,...$. At each time step $t$, the agent uses a policy $\pi$ to select an action $A_t$ based on its observation of the environment's state $S_t$. The agent receives a numerical reward $R_t$ and on the next time step, moves to a new state $S_{t+1}$.
+Gym implements the classic "agent-environment loop”. An agent interacts with the environment in discrete time steps $t = 0,1,2,...$. At each time step $t$, the agent uses a policy $\pi$ to select an action $A_t$ based on its observation of the environment's state $S_t$. The agent receives a numerical reward $R_t$ and on the next time step, moves to a new state $S_{t+1}$.
 
 <br>
 <br>
@@ -65,7 +65,7 @@ $$Q(s, a) = R(s) + \gamma \max_{a'} Q(s', a')$$
 There's a couple of techniques that can be employed to avoid instabilities when using neural networks in reinforcement learning to estimate action-value functions. These techniques consist of using a ***Target Network*** and ***Experience Replay***. We will explore these two techniques in the following sections.
 
 ### Target Network
-We can train the $Q$-Network by adjusting it's weights at each iteration to minimize the mean-squared error in the Bellman equation, where the target values are given by:
+We can train the $Q$-Network by adjusting its weights at each iteration to minimize the mean-squared error in the Bellman equation, where the target values are given by:
 
 $$
 y = R + \gamma \max_{a'}Q(s',a';w)
