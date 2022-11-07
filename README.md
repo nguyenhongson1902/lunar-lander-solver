@@ -8,7 +8,7 @@ The landing pad is designated by two flag poles and it is always at coordinates 
 
 <figure>
     <p align="center">
-        <img src="images/lunar_lander.gif" width="640" height="460">
+        <img src="images/lunar_lander.gif" width=40%>
     </p>
   <figcaption>Lunar Lander Environment.</figcaption>
 </figure>
