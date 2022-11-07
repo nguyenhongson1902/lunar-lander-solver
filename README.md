@@ -51,9 +51,7 @@ Gym implements the classic "agent-environment loop”. An agent interacts with t
 We denote that Q^*(s,a) is the optimal action-value function of Q(s,a). In this case, the state space is continuous so it is practically
 impossible to explore the entire state-action space. Consequently, this also makes it practically impossible to gradually estimate Q(s,a) until it converges to Q^*(s,a).
 
-We denote that $Q^*(s,a)$ is the optimal action-value function of $Q(s,a)$. 
-
-In this case, the state space is continuous so it is practically impossible to explore the entire state-action space. 
+We denote that $Q^*(s,a)$ is the optimal action-value function of $Q(s,a)$. In this case, the state space is continuous so it is practically impossible to explore the entire state-action space. 
 
 Consequently, this also makes it practically impossible to gradually estimate $Q(s,a)$ until it converges to $Q^*(s,a)$
 
