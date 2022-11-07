@@ -103,28 +103,18 @@ Run the command `conda create --name <your_env> --file requirements.txt`
 
 ## Training
 To train the agent, activate the Anaconda environment and run the command `python main.py` in the terminal. The result will look similar to this:
-<br>
-<br>
-<figure>
-  <p align="center">
-  <img src = "images/training_time.png" width = 100% style = "border: thin silver solid; padding: 0px">
-      <figcaption style = "text-align: center; font-style: italic">Total Training Time.</figcaption>
-  </p>
-</figure>
+
+<p align="center"><img src = "images/training_time.png" width = 100% style = "border: thin silver solid; padding: 0px"></p>
+<p align="center"><i>Total Training Time.</i></p>
 
 You should ignore the warnings in the image above and focus on the main information. This environment is solved in $867$ episodes with the total point average of $205.57$ points ($\geq 200$ points) and the total training time is about $10.67$ minutes
 
 After the training is finished, the model will be saved in `./models/` so we can see the results in `./videos/lunar_lander.mp4` and the moving average of total points through episodes in `./images/moving_average.png`
 
 ## Results
-<br>
-<br>
-<figure>
-  <p align="center">
-  <img src = "images/moving_average.png" width = 60% style = "border: thin silver solid; padding: 0px">
-      <figcaption style = "text-align: center; font-style: italic">The Moving Average of Total Points through Episodes.</figcaption>
-  </p>
-</figure>
+
+<p align="center"><img src = "images/moving_average.png" width = 60% style = "border: thin silver solid; padding: 0px"></p>
+<p align="center"><i>The Moving Average of Total Points through Episodes.</i></p>
 
 
 https://user-images.githubusercontent.com/53143545/200273404-8717d2b5-3bda-4f7b-a7c1-30cf6936a1e6.mp4
