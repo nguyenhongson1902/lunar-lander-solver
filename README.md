@@ -108,7 +108,7 @@ To train the agent, activate the Anaconda environment and run the command `pytho
 <p align="center"><img src = "images/training_time.png" width = 100% style = "border: thin silver solid; padding: 0px"></p>
 <p align="center"><i>Total Training Time.</i></p>
 
-You should ignore the warnings in the image above and focus on the main information. This environment is solved in $867$ episodes with the total point average of $205.57$ points ($\geq $ $200$ points) and the total training time is about $10.67$ minutes
+You should ignore the warnings in the image above and focus on the main information. This environment is solved in $867$ episodes with the total point average of $205.57$ points (remember that the environment is solved if the agent gets at least $200$ points) and the total training time is about $10.67$ minutes
 
 After the training is finished, the model will be saved in `./models/` so we can see the results in `./videos/lunar_lander.mp4` and the moving average of total points through episodes in `./images/moving_average.png`
 
