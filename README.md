@@ -12,7 +12,7 @@ The landing pad is designated by two flag poles and it is always at coordinates 
     </p>
 </figure>
 
-<p align="center">Lunar Lander Environment.</p>
+<p align="center"><i>Lunar Lander Environment.</i></p>
 
 <div align="center">
   my text here.
