@@ -143,6 +143,7 @@ After the training is finished, the model will be saved in `./models/` so we can
 
 
 https://user-images.githubusercontent.com/53143545/200273404-8717d2b5-3bda-4f7b-a7c1-30cf6936a1e6.mp4
+
 https://user-images.githubusercontent.com/53143545/200273261-cf42491e-15f1-4c72-8615-dc6e0bd2e1a5.mp4
 
 
