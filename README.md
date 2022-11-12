@@ -107,6 +107,10 @@ The experience tuples $(S_t, A_t, R_t, S_{t+1})$ will be added to the memory buf
 ## Installation
 Run the command `conda create --name <your_env> --file requirements.txt`
 
+## Development Environments
+- macOS Ventura $13.0$, Anaconda $22.9.0$
+- Main packages: `gym`, `TensorFlow`
+
 ## Training
 To train the agent, activate the Anaconda environment and run the command `python main.py` in the terminal. The result will look similar to this:
 
